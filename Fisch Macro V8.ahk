@@ -23,20 +23,19 @@ IdleScanDelay := 10
 ;======    Shake Settings    =====================================================================;
 
 ; Change To "Navigation" or "Click"
-ShakeMode := "Navigation"
+ShakeMode := "Click"
 WhiteBarColorTolerance := 15
 FishBarColorTolerance := 0
 
 ; Navigation UI Settings
-NavigationKey := "ň"
 AutoEnableCameraMode := true
 NavigationFailsafeTimer := 20
 NavigationInputDelay := 10
 
 ; Click Circle Settings
-ClickFailsafeTimer := 20
+ClickFailsafeTimer := 0
 WhiteCircleColorTolerance := 0
-ClickDelay := 50
+ClickDelay := 1
 RetryBypassCounter := 10
 
 ;======    Bar Minigame Settings    ==============================================================;
