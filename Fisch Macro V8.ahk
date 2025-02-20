@@ -23,7 +23,7 @@ IdleScanDelay := 10
 ;======    Shake Settings    =====================================================================;
 
 ; Change To "Navigation" or "Click"
-ShakeMode := "Navigation"
+ShakeMode := "Click"
 WhiteBarColorTolerance := 15
 FishBarColorTolerance := 0
 
@@ -42,7 +42,7 @@ RetryBypassCounter := 10
 ;======    Bar Minigame Settings    ==============================================================;
 
 ; Set to true to manually catch the fish
-DisableMinigameMode := false
+DisableMinigameMode := true
 
 ; You generally dont want to change these
 IncreaseIfCantFindWhiteBar := 15
